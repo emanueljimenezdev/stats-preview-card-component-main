@@ -1,0 +1,229 @@
+@media (max-width: 1000px) {
+    body {
+        padding: 0px 0px 0 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container { 
+        align-items: center;
+        justify-content: center;
+        max-width: 800px;
+        max-height: 350px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .texto {
+        padding: 50px;
+        padding-right: 20px;
+    }
+
+    .titulo {
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        max-width: 310.45px;
+    }
+
+    .paragrafo {
+        font-size: 12px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        padding-right: 0;
+        justify-content: center;
+        align-items: bottom;
+        max-width: 310.45px;
+        line-height: 18px;
+        }
+
+    .stats {
+        font-size: 12px;
+        max-width: 400px;
+        padding-right: 45px
+        }
+
+    .dados {
+        font-size: x-small;
+    }
+
+    .image-container figure {
+        height: 350px;
+        width: 400px;
+        }   
+}
+
+@media (max-width: 790px) {
+    
+    body {
+        padding: 0px 25px 0 0;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 540px;
+        max-height: 600px;
+        justify-content: left;
+        align-items: center;
+        border-top-right-radius: 10px;
+        padding-bottom: 20px;
+        margin-left: 22px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .paragrafo {
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        padding-right: 0;
+        justify-content: center;
+        align-items: bottom;
+        max-width: 410.45px;
+        }
+
+    .medicoes {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .stats {
+        justify-content: center;
+        align-items: center;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .titulo {
+        text-align: center;
+        font-size: 26px;
+        justify-content: center;
+        align-items: center;
+        max-width: none;
+    }
+
+    .texto {
+        text-align: center; 
+        align-items: center;
+        justify-content: center;
+        padding: 15px 0px;
+        padding-right: 0px;
+        flex-wrap: wrap;
+        max-width: 350px;
+        }
+
+     .image-container figure .capa {
+        border-top-left-radius: 10px;
+        position: none;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 0;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 10px;
+    }    
+
+    .container .image {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .image-container figure {
+        height: 350px;
+        width: 410.44px;
+        }
+}
+
+@media (max-width: 480px) {
+
+    body {
+        left: 0px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 10px;
+        max-width: 75%;
+        max-height: 95%;
+        margin-top: 25px;
+        margin-left: -10px;
+    }
+    
+    .titulo {
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 20px 20px 20px 20px;
+        align-items: left;
+        max-width: none;
+    }
+
+    .paragrafo {
+        font-size: 11px;
+        line-height: 18px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    .medicoes {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image {
+        border-top-left-radius: 10px;
+    }
+
+    .image-container figure {
+        position: none;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }    
+
+    .stats {
+        justify-content: center;
+        align-items: center;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    h2 {
+        padding: 0;
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .dados {    
+        padding-bottom: 20px;
+    }
+    
+    .container .image {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    } 
+} 

@@ -1,0 +1,110 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    padding: 220px 200px 220px 200px;
+
+}
+
+.container {
+    font-family: 'Inter', sans-serif;
+    font-weight:lighter;
+    max-width: 1440px;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.titulo {
+    font-weight: 700;
+}
+
+.texto{
+    padding: 0px 65px;
+    padding-right: 80px;
+    align-items: left;
+}
+
+.paragrafo {
+    padding-top: 20px;
+    padding-bottom: 70px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    color: hsla(0, 0%, 76%, 0.75);
+    line-height: 21px;
+    justify-content: left;
+    max-width: 340px;
+}
+
+.container .image {
+    max-width: 486px;
+    max-height: 540px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.medicoes {
+    display: flex;
+}
+
+.stats {
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    padding-right: 65px;
+    font-size: 14px;
+}
+
+h2 {
+    padding-bottom: 8px;
+}
+
+body .insights {
+    color: hsl(277, 64%, 61%);
+}
+
+.dados {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 11px;
+    color: #7d7b92;
+    font-weight: large;
+}
+
+.image-container figure {
+    position: relative;
+    height: 401.39px;
+    width: 486px;
+    overflow: hidden;
+}
+
+.image-container figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-container figure .capa { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(96, 12, 134, 0.514);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
